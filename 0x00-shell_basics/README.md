@@ -23,3 +23,5 @@ Script 10 changes to the previous working directory
 Script 11 lists many folder contents in a single command
 
 Script 12 checks type of iamafile
+
+Script 13 creates a symbolic link

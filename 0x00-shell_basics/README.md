@@ -15,3 +15,7 @@ Script 6 creates a folder in tmp/
 Script 7 moves file betty
 
 Script 8 deletes file betty 
+
+Script 9 deletes directory
+
+

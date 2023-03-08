@@ -25,3 +25,5 @@ Script 11 lists many folder contents in a single command
 Script 12 checks type of iamafile
 
 Script 13 creates a symbolic link
+
+Script 14 copies all untracked HTML files to the parent folder

@@ -19,3 +19,7 @@ Script 8 deletes file betty
 Script 9 deletes directory
 
 Script 10 changes to the previous working directory
+
+
+
+Script 12 checks type of iamafile

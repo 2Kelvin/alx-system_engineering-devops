@@ -31,3 +31,5 @@ Script 14 copies all untracked HTML files to the parent folder
 Script 100 copies all files with first uppercase letters
 
 Script 102 adds a folder tree
+
+Script 103 adds commas

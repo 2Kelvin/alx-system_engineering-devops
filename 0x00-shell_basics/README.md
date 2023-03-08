@@ -27,3 +27,5 @@ Script 12 checks type of iamafile
 Script 13 creates a symbolic link
 
 Script 14 copies all untracked HTML files to the parent folder
+
+Script 100 copies all files with first uppercase letters

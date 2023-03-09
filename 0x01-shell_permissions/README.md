@@ -13,3 +13,4 @@
 - Script 12 adds permissions 751 to my-dir
 - Script 13 changes group owner to school
 - Script 100 changes owner & group owner
+- Script 101 respectively changes owner & group

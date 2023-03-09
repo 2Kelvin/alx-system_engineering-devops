@@ -10,3 +10,4 @@
 - Script 9 sets permission to 753
 - Script 10 hello mirrors script olleh
 - Script 11 executes permissions to sub-directories
+- Script 12 adds permissions 751 to my-dir

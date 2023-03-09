@@ -12,3 +12,4 @@
 - Script 11 executes permissions to sub-directories
 - Script 12 adds permissions 751 to my-dir
 - Script 13 changes group owner to school
+- Script 100 changes owner & group owner

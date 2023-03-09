@@ -3,3 +3,4 @@
 - Script 2 prints all user's groups
 - Script 3 changes owner of file hello to betty
 - Script 4 creates an empty file hello
+- Script 5 adds execute permission of file hello to owner

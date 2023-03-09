@@ -1,2 +1,3 @@
 - Script 0 switches the user to betty
 - Script 1 prints the current user
+- Script 2 prints all user's groups

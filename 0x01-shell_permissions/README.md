@@ -6,3 +6,4 @@
 - Script 5 adds execute permission of file hello to owner
 - Script 6 adds execute permissions to owner and group
 - Script 7 adds execute permission to everyone
+- Script 8 adds permission 007

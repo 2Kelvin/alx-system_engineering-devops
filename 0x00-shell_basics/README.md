@@ -1,20 +1,20 @@
--Script 1  prints out the absolute path of the current working directory
--Script 2 lists items of a directory
--Task 2 is script that changes the directory to the home directory
--Task 3 script lists directory contents in along format
--Task 4 script lists content files and folders including hidden files in a long format
--Task 5 script lists items in a numeric order
--Script 6 creates a folder in tmp/
--Script 7 moves file betty
--Script 8 deletes file betty 
--Script 9 deletes directory
--Script 10 changes to the previous working directory
--Script 11 lists many folder contents in a single command
--Script 12 checks type of iamafile
--Script 13 creates a symbolic link
--Script 14 copies all untracked HTML files to the parent folder
--Script 100 copies all files with first uppercase letters
--Script 102 adds a folder tree
--Script 103 adds commas
--Script mgc detects school data files
--Script 0-iam-betty changes user to betty
+- Script 1  prints out the absolute path of the current working directory
+- Script 2 lists items of a directory
+- Task 2 is script that changes the directory to the home directory
+- Task 3 script lists directory contents in along format
+- Task 4 script lists content files and folders including hidden files in a long format
+- Task 5 script lists items in a numeric order
+- Script 6 creates a folder in tmp/
+- Script 7 moves file betty
+- Script 8 deletes file betty 
+- Script 9 deletes directory
+- Script 10 changes to the previous working directory
+- Script 11 lists many folder contents in a single command
+- Script 12 checks type of iamafile
+- Script 13 creates a symbolic link
+- Script 14 copies all untracked HTML files to the parent folder
+- Script 100 copies all files with first uppercase letters
+- Script 102 adds a folder tree
+- Script 103 adds commas
+- Script mgc detects school data files
+- Script 0-iam-betty changes user to betty

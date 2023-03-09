@@ -17,4 +17,3 @@
 - Script 102 adds a folder tree
 - Script 103 adds commas
 - Script mgc detects school data files
-- Script 0-iam-betty changes user to betty

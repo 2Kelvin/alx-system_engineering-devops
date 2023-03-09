@@ -1,1 +1,2 @@
-- Script betty switches the user to betty
+- Script 0 switches the user to betty
+- Script 1 prints the current user

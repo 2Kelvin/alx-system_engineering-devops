@@ -7,3 +7,4 @@
 - Script 6 adds execute permissions to owner and group
 - Script 7 adds execute permission to everyone
 - Script 8 adds permission 007
+- Script 9 sets permission to 753

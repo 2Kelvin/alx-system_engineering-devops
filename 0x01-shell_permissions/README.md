@@ -1,0 +1,1 @@
+- Script betty switches the user to betty

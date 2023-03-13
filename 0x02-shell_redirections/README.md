@@ -21,3 +21,4 @@ This is a readme for shell-redirections:
 - Script 19 replaces characters Ac with Ze
 - Script 20 removes all 'c's
 - Script 21 sorts items in reverse order
+- Script 22 displays and sorts users

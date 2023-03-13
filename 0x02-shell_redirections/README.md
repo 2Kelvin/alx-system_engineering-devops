@@ -23,6 +23,6 @@ This is a readme for shell-redirections:
 - Script 21 sorts items in reverse order
 - Script 22 displays and sorts users
 - Script 100 finds empty files and directories
-
+- Script 101 lists all gifs
 
 - Script 103 displays hosts and IP addresses

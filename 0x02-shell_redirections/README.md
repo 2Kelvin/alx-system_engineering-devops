@@ -13,3 +13,4 @@ This is a readme for shell-redirections:
 - Script 11 counts directories
 - Script 12 sorts files from the newest
 - Script 13 only prints unique list items
+- Script 14 finds and prints "root" occurrences

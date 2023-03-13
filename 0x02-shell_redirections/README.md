@@ -5,4 +5,5 @@ This is a readme for shell-redirections:
 - Script 3 prints two file contents
 - Script 4 prints the last 10 lines
 - Script 5 prints the first 10 lines
-- Scrip 6 combines the  head & tail command to print a particular line
+- Script 6 combines the  head & tail command to print a particular line
+- Script 7 creates a file with special charcters

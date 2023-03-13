@@ -20,3 +20,4 @@ This is a readme for shell-redirections:
 - Script 18 displays lines starting only with letters
 - Script 19 replaces characters Ac with Ze
 - Script 20 removes all 'c's
+- Script 21 sorts items in reverse order

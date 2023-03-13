@@ -9,3 +9,4 @@ This is a readme for shell-redirections:
 - Script 7 creates a file with special charcters
 - Script 8 redirects the output to another file
 - Script 9 duplictes the last line
+- Script 10 deletes all js files

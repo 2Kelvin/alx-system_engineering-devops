@@ -10,3 +10,4 @@ This is a readme for shell-redirections:
 - Script 8 redirects the output to another file
 - Script 9 duplictes the last line
 - Script 10 deletes all js files
+- Script 11 counts directories

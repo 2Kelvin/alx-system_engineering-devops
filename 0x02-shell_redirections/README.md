@@ -22,3 +22,4 @@ This is a readme for shell-redirections:
 - Script 20 removes all 'c's
 - Script 21 sorts items in reverse order
 - Script 22 displays and sorts users
+- Script 100 finds empty files and directories

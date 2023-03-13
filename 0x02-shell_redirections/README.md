@@ -7,3 +7,4 @@ This is a readme for shell-redirections:
 - Script 5 prints the first 10 lines
 - Script 6 combines the  head & tail command to print a particular line
 - Script 7 creates a file with special charcters
+- Script 8 redirects the output to another file

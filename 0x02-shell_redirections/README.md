@@ -15,3 +15,4 @@ This is a readme for shell-redirections:
 - Script 13 only prints unique list items
 - Script 14 finds and prints "root" occurrences
 - Script 15 counts the line resuls of grep
+- Script 16 prints 3 lins after searchterm

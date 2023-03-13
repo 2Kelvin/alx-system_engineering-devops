@@ -18,3 +18,4 @@ This is a readme for shell-redirections:
 - Script 16 prints 3 lins after searchterm
 - Script 17 display s all lines without the searchword
 - Script 18 displays lines starting only with letters
+- Script 19 replaces characters Ac with Ze

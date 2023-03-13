@@ -11,3 +11,4 @@ This is a readme for shell-redirections:
 - Script 9 duplictes the last line
 - Script 10 deletes all js files
 - Script 11 counts directories
+- Script 12 sorts files from the newest

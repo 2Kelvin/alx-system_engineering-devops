@@ -24,5 +24,5 @@ This is a readme for shell-redirections:
 - Script 22 displays and sorts users
 - Script 100 finds empty files and directories
 - Script 101 lists all gifs
-
+- Script 102 acrostic
 - Script 103 displays hosts and IP addresses

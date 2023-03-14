@@ -12,3 +12,4 @@
 - Script 11 changes a variable's base
 - Script 12 excludes "oo" in printed results
 - Script 13 prints a float with 2 decimal places
+- Script 100 converts a variable to base 16

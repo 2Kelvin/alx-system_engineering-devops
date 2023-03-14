@@ -6,4 +6,5 @@
 - Script 5 prints all variables and functions
 - Script 6 creates local variable BEST
 - Script 7 creates anew global variable
-- Script 8 adds an integer to a variable
+- Script 8 adds an integer to a variable and echoes the result
+- Scrpt 9 echoes the division of two variables

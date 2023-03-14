@@ -15,3 +15,4 @@
 - Script 100 converts a variable to base 16
 - Script 101 encodes & decodes ASCII text
 - Script 102 prints all lines
+- Script 103 adds two variables with different bases

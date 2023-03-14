@@ -1,0 +1,1 @@
+- Script 0 creates alias for ls

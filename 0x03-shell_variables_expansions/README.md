@@ -9,3 +9,4 @@
 - Script 8 adds an integer to a variable and echoes the result
 - Scrpt 9 echoes the division of two variables
 - Script 10 echoes the power of a varible
+- Script 11 changes a variable's base

@@ -1,2 +1,2 @@
 - Script 0 creates alias for ls
-- Script 1 prints "Hello $USER"
+- Script 1 prints "hello user"

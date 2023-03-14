@@ -3,3 +3,4 @@
 - Script 2 add /action to path
 - Script 3 counts the paths
 - Script 4 lists environment variables
+- Script 5 prints all variables and functions

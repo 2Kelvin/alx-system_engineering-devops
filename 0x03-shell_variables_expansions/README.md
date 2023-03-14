@@ -4,3 +4,4 @@
 - Script 3 counts the paths
 - Script 4 lists environment variables
 - Script 5 prints all variables and functions
+- Script 6 creates local variable BEST

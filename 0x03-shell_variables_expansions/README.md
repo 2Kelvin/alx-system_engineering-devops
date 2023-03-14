@@ -1,2 +1,3 @@
 - Script 0 creates alias for ls
 - Script 1 prints "hello user"
+- Script 2 add /action to path

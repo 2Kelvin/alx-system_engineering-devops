@@ -2,3 +2,4 @@
 - Script 1 prints "hello $USER"
 - Script 2 add /action to path
 - Script 3 counts the paths
+- Script 4 lists environment variables

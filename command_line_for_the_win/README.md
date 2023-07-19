@@ -12,3 +12,5 @@
 - [x] And that's just about it, easy peesy.
 
 Remember to move your screenshots to the sandbox directory `/root/alx-system_engineering-devops/command_line_for_the_win`
+
+Checkout [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-use-sftp-to-securely-transfer-files-with-a-remote-server) for a quick tutorial on using **SFTP**

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Display file contents /etc/passwd
+exec < /etc/passwd
+while read -r f_content
+do
+  echo "$f_content" | cut -d ':' -f1,3,6
+done

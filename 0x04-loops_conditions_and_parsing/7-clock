@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+# Displays the time for 12 hours and 59 mminutes
+clock_hours=0
+minutes=0
+while [ $clock_hours -le 12 ]
+do
+    echo "Hour: $clock_hours"
+    minutes=0
+    while [ $minutes -le 59 ]
+    do
+        echo "$minutes"
+        ((minutes++))
+    done
+    ((clock_hours++))
+done

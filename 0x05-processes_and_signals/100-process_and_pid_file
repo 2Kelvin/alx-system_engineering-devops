@@ -3,7 +3,7 @@
 new_file="/var/run/myscript.pid"
 echo $$ > "$new_file"
 
-trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "I hate the kill command"; rm -rf "$new_file"; exit' SIGTERM
 trap 'echo "Y U no love me?!"' SIGINT
 trap 'rm -rf "$new_file"; exit' SIGQUIT
 

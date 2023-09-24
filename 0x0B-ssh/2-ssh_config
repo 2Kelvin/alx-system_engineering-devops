@@ -1,0 +1,6 @@
+# custom alx ssh config file
+Host *
+    User ubuntu
+    HostName 54.237.88.98
+    IdentityFile ~/.ssh/school
+    passwordAuthentication no

@@ -1,20 +1,20 @@
 # Installing and configuring nginx puppet style
-exec { 'installation':
-  command  => 'sudo apt -y update ; sudo apt -y install nginx',
-  provider => shell
-}
-
 package { 'nginx':
   ensure => 'present'
 }
 
+exec { 'installation':
+  command => 'sudo apt -y update ; sudo apt -y install nginx',
+  provider => shell
+}
+
 exec { 'pageHello':
-  command  => "echo 'Hello World!' | sudo tee /var/www/html/index.html",
+  command => "echo 'Hello World!' | sudo tee /var/www/html/index.html",
   provider => shell
 }
 
 exec { 'redirect':
-  command  => [
+  command => [
     'sudo',
     'sed',
     '-i',
@@ -26,6 +26,7 @@ exec { 'redirect':
 
 
 exec { 'restart and update nginx':
-  command  => 'sudo service nginx restart',
+  command => 'sudo service nginx restart',
   provider => shell
 }
+

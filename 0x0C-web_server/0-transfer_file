@@ -2,9 +2,10 @@
 # Using scp (secure file copy) to transfer a file to my server from my local machine
 if [ $# -lt 3 ]; then
     echo 'Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY'
+else
+    fPath=$1
+    ipServer=$2
+    userName=$3
+    privSSHKey=$4
+    scp -o StrictHostKeyChecking=no -i "$privSSHKey" "$fPath" "$userName@$ipServer:~/"
 fi
-fPath=$1
-ipServer=$2
-userName=$3
-privSSHKey=$4
-scp -o StrictHostKeyChecking=no -i "$fPath $userName@$ipServer:~/ $privSSHKey"

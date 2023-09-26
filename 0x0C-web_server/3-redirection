@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Redirection
+sudo apt -y update
+sudo apt -y install nginx
+echo 'Hello World' > /var/www/html/index.html
+sudo sed -i '/^}$/i \ \n\tlocation \/redirect_me {return 301 https:\/\/www.github.com;}' /etc/nginx/sites-available/default
+sudo service nginx start

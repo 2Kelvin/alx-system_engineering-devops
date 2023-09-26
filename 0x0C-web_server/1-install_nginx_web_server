@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Installing nginx web server
-apt -y update
-apt -y install nginx
-echo "Hello World" > /var/www/html/index.html
+sudo apt -y update
+sudo apt -y install nginx
+sudo sed -i '/listen 80 default_server;/c\listen 80;' /etc/nginx/nginx.conf
+echo 'Hello World' > /var/www/html/index.html
 service nginx start

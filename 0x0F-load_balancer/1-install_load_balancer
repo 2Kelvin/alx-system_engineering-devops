@@ -3,7 +3,6 @@
 sudo apt -y update
 sudo apt -y install haproxy
 sudo sed -i "s/^ENABLED=.*/ENABLED=1/g" /etc/default/haproxy
-sudo service haproxy start
 configHaproxy=\
 "
 frontend http_frontend
@@ -11,10 +10,9 @@ frontend http_frontend
     mode http
     default_backend web-backend
 backend web-backend
-    mode http
     balance roundrobin
-    server 336860-web-01 54.237.88.98 check
-    server 336860-web-02 35.153.67.97 check
+    server 336860-web-02 35.153.67.97:80 check
+    server 336860-web-01 54.237.88.98:80 check
 "
 echo "$configHaproxy" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart

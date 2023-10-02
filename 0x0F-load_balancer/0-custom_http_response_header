@@ -6,6 +6,5 @@ echo 'Hello World!' > /var/www/html/index.html
 sed -i "/server_name _;/ a\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 sed -i "0,/}/ s|}|}\n\n\terror_page 404 /404.html;\n\tlocation = /404.html {\n\t\troot /var/www/html/;\n\t\tinternal;\n\t}|" /etc/nginx/sites-available/default
-myHostName=$(hostname)
-echo "add_header X-Served-By '$myHostName';" >> /etc/nginx/nginx.conf
+sudo sed -i "16i \\\t add_header X-Served-By '$hostname' always;\n" /etc/nginx/nginx.conf
 sudo service nginx restart

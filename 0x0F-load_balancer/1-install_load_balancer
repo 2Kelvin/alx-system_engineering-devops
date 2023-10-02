@@ -3,6 +3,7 @@
 sudo apt -y update
 sudo apt -y install haproxy
 sudo sed -i "s/^ENABLED=.*/ENABLED=1/g" /etc/default/haproxy
+sudo service haproxy start
 configHaproxy=\
 "
 frontend http_frontend

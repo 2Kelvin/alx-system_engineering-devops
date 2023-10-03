@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Short and sweet debugging
+sudo service nginx start
+sed -i 's/#listen 80/listen 80; listen [::]:80/g' /etc/nginx/nginx.conf
+sudo service nginx restart

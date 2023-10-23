@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module gather data from an API"""
+"""Export to CSV"""
 
 if __name__ == '__main__':
     import requests
@@ -25,8 +25,8 @@ if __name__ == '__main__':
                 TASK_TITLE.append(todo.get('title'))
             TOTAL_NUMBER_OF_TASKS += 1
 
-    firstLine = 'Employee {} is done with tasks'.format(EMPLOYEE_NAME)
-    secondLine = '({}/{}):'.format(NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS)
+    firstLine = f'Employee {EMPLOYEE_NAME} is done with tasks'
+    secondLine = f'({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):'
     print(f'{firstLine}{secondLine}')
     for title in TASK_TITLE:
         print(f'\t {title}')

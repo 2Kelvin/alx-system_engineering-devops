@@ -25,8 +25,8 @@ if __name__ == '__main__':
                 TASK_TITLE.append(todo.get('title'))
             TOTAL_NUMBER_OF_TASKS += 1
 
-    firstLine = f'Employee {EMPLOYEE_NAME} is done with'
-    secondLine = f'tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):'
-    print(f'{firstLine} {secondLine}')
+    firstLine = 'Employee {} is done with tasks'.format(EMPLOYEE_NAME)
+    secondLine = '({}/{}):'.format(NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS)
+    print(f'{firstLine}{secondLine}')
     for title in TASK_TITLE:
         print(f'     {title}')

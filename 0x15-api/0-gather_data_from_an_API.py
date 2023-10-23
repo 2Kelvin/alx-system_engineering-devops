@@ -29,4 +29,4 @@ if __name__ == '__main__':
     secondLine = '({}/{}):'.format(NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS)
     print(f'{firstLine}{secondLine}')
     for title in TASK_TITLE:
-        print(f'     {title}')
+        print(f'\t {title}')

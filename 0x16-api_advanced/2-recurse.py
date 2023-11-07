@@ -21,12 +21,12 @@ def recurse(subreddit, hot_list=[], counter=0, after=None):
                           .get('children')]
 
     apiData = resp.json()
-    if not apiData.get('data').get('v'):
+    if not apiData.get('data').get('after'):
         return thaList
 
     return recurse(
         subreddit,
         thaList,
         apiData.get('data').get('counter'),
-        apiData.get('data').get('v')
+        apiData.get('data').get('after')
     )

@@ -12,7 +12,7 @@ def recurse(subreddit, hot_list=[], counter=0, after=None):
         params={"counter": counter, "after": after}
     )
 
-    if resp.status_code >= 400:
+    if resp.status_code != 200:
         return None
 
     thaList = hot_list + [post.get('data').get('title')

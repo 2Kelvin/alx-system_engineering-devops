@@ -13,11 +13,10 @@ def top_ten(subreddit):
         allow_redirects=False
     )
 
-    if resp.status_code != 200:
+    if resp.status_code == 200:
+        apiData = resp.json()
+        postsList = apiData.get('data').get('children')
+        for i in range(10):
+            print(postsList[i].get('data').get('title'))
+    else:
         print(None)
-        return
-
-    apiData = resp.json()
-    postsList = apiData.get('data').get('children')
-    for i in range(10):
-        print(postsList[i].get('data').get('title'))

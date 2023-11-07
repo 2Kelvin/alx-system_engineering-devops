@@ -9,7 +9,7 @@ def recurse(subreddit, hot_list=[], counter=0, v=None):
         'https://www.reddit.com/r/{}/hot.json?limit=10'.format(subreddit),
         headers={"User-Agent": "My-User-Agent"},
         allow_redirects=False,
-        args={"counter": counter, "v": v}
+        params={"counter": counter, "v": v}
     )
 
     if resp.status_code == 200:

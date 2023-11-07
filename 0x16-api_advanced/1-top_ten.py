@@ -5,10 +5,8 @@ import requests
 
 def top_ten(subreddit):
     """Prints a subreddit's top ten titles"""
-    apiURL = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
-
     resp = requests.get(
-        apiURL,
+        'https://www.reddit.com/r/{}/hot.json'.format(subreddit),
         headers={"User-Agent": "My-User-Agent"},
         allow_redirects=False
     )

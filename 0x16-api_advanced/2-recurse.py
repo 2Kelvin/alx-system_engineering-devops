@@ -13,7 +13,7 @@ def recurse(subreddit, hot_list=[], counter=0, after=None):
     )
 
     if resp.status_code >= 400:
-        print('None')
+        return None
 
     thaList = hot_list + [post.get('data').get('title')
                           for post in resp.json()

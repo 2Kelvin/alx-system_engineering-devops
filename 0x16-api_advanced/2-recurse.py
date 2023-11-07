@@ -12,17 +12,15 @@ def recurse(subreddit, hot_list=[], counter=0, v=None):
         params={"counter": counter, "v": v}
     )
 
-    if resp.status_code == 200:
-        thaList = hot_list + [
-            post.get('data').get('title') for post in resp.json().get(
-                'data').get('children')
-        ]
-
-        apiData = resp.json()
-        if not apiData.get('data').get('v'):
-            return thaList
-
-        return recurse(subreddit, thaList, apiData.get('data').get('counter'),
-                       apiData.get('data').get('v'))
-    else:
+    if resp.status_code >= 400:
         print('None')
+
+    thaList = hot_list + [post.get('data').get('title')
+                            for post in resp.json().get('data').get('children')]
+
+    apiData = resp.json()
+    if not apiData.get('data').get('v'):
+        return thaList
+
+    return recurse(subreddit, thaList, apiData.get('data').get('counter'),
+                    apiData.get('data').get('v'))

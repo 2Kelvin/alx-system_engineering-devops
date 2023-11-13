@@ -1,1 +1,1 @@
-Seeting up an application server
+Setting up an application server

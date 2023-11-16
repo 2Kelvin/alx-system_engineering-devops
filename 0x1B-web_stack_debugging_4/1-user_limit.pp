@@ -1,9 +1,10 @@
 # Still increasing file open numbers
 exec { 'increase hard file numbers':
-    command => "sed -i '/holberton hard/s/5/50000' /etc/security/limits.conf",
-    path    => '/usr/local/bin/:/bin/'
+    provider => shell,
+    command  => "sudo sed -i 's/nofile 5/nofile 50000/' /etc/security/limits.conf",
+    before   => Exec['fileTwo']
 }
-exec { 'increase soft file numbers':
-    command => "sed -i '/holberton soft/s/4/50000' /etc/security/limits.conf",
-    path    => '/usr/local/bin/:/bin/'
+exec { 'fileTwo':
+    provider => shell,
+    command  => "sudo sed -i 's/nofile 4/nofile 40000/' /etc/security/limits.conf",
 }
